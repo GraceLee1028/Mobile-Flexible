@@ -1,0 +1,111 @@
+/*multi overflow*/
+/*color---------*/
+/*--css---------start----*/
+.vh-center {
+  display: block;
+  margin: 0 auto;
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  position: relative;
+  top: 50%; }
+
+p {
+  margin: 0; }
+
+.page, .page-group {
+  background-color: #f0f0f0; }
+
+.bar-tab {
+  border-top: 1px solid #ddd;
+  background-color: #fff; }
+
+.bar-tab, .bar-tab .tab-item {
+  height: 3rem;
+  color: #010101; }
+
+.bar-tab .tab-item.active, .bar-tab .tab-item:active {
+  color: #c79a54; }
+
+.bar .iconfont {
+  position: relative;
+  z-index: 20;
+  padding: .3rem .1rem;
+  font-size: 1.2rem;
+  line-height: 1.4rem; }
+
+.bar-tab .tab-item .iconfont {
+  top: .05rem;
+  height: 1.2rem;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  padding-top: 0;
+  padding-bottom: 0; }
+
+.bar-tab .tab-item .iconfont ~ .tab-label {
+  display: block;
+  font-size: .65rem;
+  position: relative;
+  top: .15rem; }
+
+.content.has-bar {
+  bottom: 3rem; }
+
+.bg-icon {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center; }
+  .bg-icon .iconfont {
+    font-size: 1.2rem; }
+
+.search {
+  width: 100%;
+  position: relative; }
+  .search .icon-search {
+    position: absolute;
+    left: .5rem;
+    font-size: 1.2rem;
+    line-height: 2rem; }
+  .search input[type=text] {
+    width: 100%;
+    height: 2rem;
+    line-height: 2rem;
+    padding-left: 2rem;
+    font-size: .8rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    border-radius: 2rem;
+    border: 0; }
+
+.swiper-pagination-bullet-active {
+  background-color: #c79a54; }
+
+.three-container .swiper-slide {
+  width: 33.333%;
+  text-align: center; }
+.three-container .swiper-button-prev,
+.three-container .swiper-button-next {
+  background-image: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  font-size: 1.5rem;
+  color: #aaa7a2;
+  margin-top: -15px; }
+.three-container .swiper-button-prev {
+  left: 1px; }
+.three-container .swiper-button-next {
+  right: 1px; }
+.three-container .swiper-button-disabled {
+  display: none; }
+
+/*# sourceMappingURL=common.css.map */
